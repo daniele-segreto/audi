@@ -1,0 +1,84 @@
+/* Contenitori Generali */
+html, body, .general {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Navbar */
+nav {
+    background-color: #F0F0F0;
+}
+
+/* Logo */
+.navbar-brand {
+    margin-left: 30px;
+}
+
+/* Link presenti sulla Navbar */
+.a-nav {
+    margin: 0 120px;
+    font-size: 20px;
+}
+.a-nav:hover {
+    color: black !important;
+    box-shadow: 5px 5px #b0021988;
+}
+
+/* Testi Rossi */
+.text-red {
+    color: #E21D38 !important;
+    text-decoration: none;
+}
+
+/* Main */
+main {
+    margin-top: 36px;
+}
+
+/* Tasto Vetrina */
+.padding-tasto-vetrina {
+    padding: 5px 90px;
+}
+
+/* Footer */
+footer {
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    background-color: #F0F0F0;
+    padding: 20px 20px 10px;
+}
+
+/* Link Presenti sul Footer */
+footer div a {
+    margin: 0 10px;
+}
+
+/* Link presenti sul Footer + Icone Social */
+.a-footer:hover {
+    color: black !important;
+}
+
+/* Contenitore Icone Social */
+.social {
+    margin-top: 20px;
+}
+
+/* Icone Social */
+.fa {
+    font-size: 36px;
+    margin: 0 10px;
+}
+
+.logo-footer {
+    margin-top: -15px;
+    margin-left: 8px;
+}
+
+/* Paragrafo del Copyright */
+.copyright {
+    margin-top: 20px;
+}
