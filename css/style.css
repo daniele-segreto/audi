@@ -21,10 +21,10 @@ nav {
     margin: 0 120px;
     font-size: 20px;
 }
-.a-nav:hover {
+/* .a-nav:hover {
     color: black !important;
     box-shadow: 5px 5px #b0021988;
-}
+} */
 
 /* Testi Rossi */
 .text-red {
@@ -33,13 +33,53 @@ nav {
 }
 
 /* Main */
-main {
-    margin-top: 36px;
+.home-main, .contatti-main {
+    margin-top: 33px;
+}
+
+/* Titoli */
+h1 {
+    font-size: 30px;
+}
+
+/* Dimensione Immagine Home */
+.w-img-home {
+    width: 36%;
 }
 
 /* Tasto Vetrina */
 .padding-tasto-vetrina {
     padding: 5px 90px;
+}
+
+/* Form */
+form {
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 63px;
+    box-shadow: 2px 2px grey;
+}
+
+/* Contenitore di Form e Mappa */
+.form-maps {
+    margin-top: 25px;
+}
+
+/* Mappa */
+iframe {
+    margin-top: 10px;
+}
+
+form, iframe {
+    margin-left: 80px;
+}
+
+/* Tasto Invia del Form */
+.padding-tasto-form {
+    padding: 5px 80px;
 }
 
 /* Footer */
