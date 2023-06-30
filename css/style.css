@@ -33,23 +33,54 @@ nav {
 }
 
 /* Main */
-.home-main, .contatti-main {
-    margin-top: 33px;
+.home-main, .contatti-main, .vetrina-main {
+    margin-top: 23px;
 }
 
 /* Titoli */
 h1 {
     font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 20px;
 }
 
-/* Dimensione Immagine Home */
-.w-img-home {
+/* Bottoni */
+.btn {
+    box-shadow: 2px 2px 3px gray;
+}
+
+/* Immagine Principale Home */
+.img-home {
     width: 36%;
+    box-shadow: 3px 3px 5px gray;
 }
 
 /* Tasto Vetrina */
 .padding-tasto-vetrina {
     padding: 5px 90px;
+}
+
+/* Contenitore Cards */
+/* .contenitore-cards {
+    width: 80%;
+    border: 1px solid black;
+    background-color: #E21D38;
+} */
+
+/* Cards */
+.card {
+    background-color: #F0F0F0;
+    /* margin: 0 100px; */
+}
+
+/* Corpo delle Card */
+.card-body {
+    margin: 15px 10px;
+}
+
+/* Ombra sulle Cards */
+.shadow-card {
+    box-shadow: 3px 3px 5px grey;
 }
 
 /* Form */
@@ -60,7 +91,7 @@ form {
     align-items: center;
     flex-direction: column;
     padding: 0 63px;
-    box-shadow: 2px 2px grey;
+    box-shadow: 3px 3px 5px grey;
 }
 
 /* Contenitore di Form e Mappa */
@@ -73,6 +104,7 @@ iframe {
     margin-top: 10px;
 }
 
+/* Contenitore Form e iFrame */
 form, iframe {
     margin-left: 80px;
 }
@@ -113,6 +145,7 @@ footer div a {
     margin: 0 10px;
 }
 
+/* Logo Audu sul Footer */
 .logo-footer {
     margin-top: -15px;
     margin-left: 8px;
