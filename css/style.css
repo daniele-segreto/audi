@@ -3,12 +3,14 @@ html, body, .general {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: Inder;
 }
 
 /* Navbar */
 nav {
     background-color: #F0F0F0;
+    box-shadow: 2px 2px 7px gray;
 }
 
 /* Logo */
@@ -33,15 +35,37 @@ nav {
 }
 
 /* Main */
-.home-main, .contatti-main, .vetrina-main {
-    margin-top: 23px;
+.home-main, .vetrina-main, .contatti-main {
+    margin-top: 28px;
+}
+
+/* Contenitore h1 + linea */
+.contenitore-h1-linea {
+    margin-bottom: 20px;
 }
 
 /* Titoli */
 h1 {
-    font-size: 30px;
-    text-decoration: underline;
-    margin-bottom: 20px;
+    font-size:27px;
+    margin-bottom: 0px;
+    /* text-decoration: underline; */
+}
+
+/* Underline sotto i Titoli */
+.linea-1 {
+    background-color: black;
+    width: 264px;
+    height: 1px;
+}
+.linea-2 {
+    background-color: black;
+    width: 269px;
+    height: 1px;
+}
+.linea-3 {
+    background-color: black;
+    width: 162px;
+    height: 1px;
 }
 
 /* Bottoni */
@@ -70,13 +94,31 @@ h1 {
 /* Cards */
 .card {
     background-color: #F0F0F0;
-    /* margin: 0 100px; */
+    width: 263px;
+    font-size: 15px;
 }
 
 /* Corpo delle Card */
 .card-body {
-    margin: 15px 10px;
+    margin: 0px 10px;
 }
+
+.card-sinistra {
+    margin-left: 250px;
+}
+.card-destra {
+    margin-right: 250px;
+}
+
+/* Immagine delle Cards */
+/* .card-img-top {
+    width: 50%;
+} */
+
+/* Testo delle Cards */
+/* .card-title, .card-text {
+    font-size: 15px;
+} */
 
 /* Ombra sulle Cards */
 .shadow-card {
@@ -122,6 +164,7 @@ footer {
     width:100%;
     background-color: #F0F0F0;
     padding: 20px 20px 10px;
+    box-shadow: 2px 2px 7px gray;
 }
 
 /* Link Presenti sul Footer */

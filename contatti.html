@@ -7,6 +7,8 @@
     <title>AUDI - CONTATTI</title>
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lobster">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <!-- CSS -->
@@ -22,21 +24,21 @@
             <div class="container-fluid">
                 <!-- Logo -->
                 <a class="navbar-brand" href="./index.html">
-                    <img src="./img/audi.png" alt="Bootstrap" width="70" height="52">
+                    <img src="./img/audi.png" alt="audi" width="70" height="52">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active text-red a-nav" aria-current="page" href="./index.html">HOME</a>
+                            <a class="nav-link active text-red a-nav fw-bolder" aria-current="page" href="./index.html">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-red a-nav" href="./vetrina.html">VETRINA</a>
+                            <a class="nav-link active text-red a-nav fw-bolder" href="./vetrina.html">VETRINA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-red a-nav" href="./contatti.html">CONTATTI</a>
+                            <a class="nav-link active text-red a-nav fw-bolder" href="./contatti.html">CONTATTI</a>
                         </li>
                     </ul>
                 </div>
@@ -45,7 +47,11 @@
         
         <!-- Main -->
         <main class="contatti-main">
-            <h1 class="text-center">CONTATTACI</h1>
+            <!-- Titolo, h1 -->
+            <div class="contenitore-h1-linea d-flex align-items-center flex-column">
+                <h1 class="text-center">CONTATTACI</h1>
+                <div class="linea-3"></div>
+            </div>
             <div class="form-maps d-flex justify-content-center">
                 <!-- Form -->
                 <form class="rounded-5">
@@ -56,13 +62,13 @@
                         <input type="text" class="form-control" placeholder="Cognome">
                     </div>
                     <div class="form-group mt-3">
-                        <input type="text" class="form-control" placeholder="E-Mail">
+                        <input type="email" class="form-control" placeholder="E-Mail">
                     </div>
                     <button type="submit" class="btn btn-danger mt-3 rounded-5 padding-tasto-form">Invia</button>
                 </form>
                 
                 <!-- Maps -->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100415.37127632384!2d13.274887266219144!3d38.14064983581874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1319e8c9814ed099%3A0xa0b042c233bd880!2sPalermo%20PA!5e0!3m2!1sit!2sit!4v1688053653611!5m2!1sit!2sit" width="500" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100415.37127632384!2d13.274887266219144!3d38.14064983581874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1319e8c9814ed099%3A0xa0b042c233bd880!2sPalermo%20PA!5e0!3m2!1sit!2sit!4v1688053653611!5m2!1sit!2sit" width="500" height="290" style="border:0; box-shadow: 3px 3px 5px gray;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             
         </main>

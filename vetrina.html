@@ -7,6 +7,8 @@
     <title>AUDI - VETRINA</title>
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lobster">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <!-- CSS -->
@@ -22,21 +24,21 @@
             <div class="container-fluid">
                 <!-- Logo -->
                 <a class="navbar-brand" href="./index.html">
-                    <img src="./img/audi.png" alt="Bootstrap" width="70" height="52">
+                    <img src="./img/audi.png" alt="audi" width="70" height="52">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active text-red a-nav" aria-current="page" href="./index.html">HOME</a>
+                            <a class="nav-link active text-red a-nav fw-bolder" aria-current="page" href="./index.html">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-red a-nav" href="./vetrina.html">VETRINA</a>
+                            <a class="nav-link active text-red a-nav fw-bolder" href="./vetrina.html">VETRINA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-red a-nav" href="./contatti.html">CONTATTI</a>
+                            <a class="nav-link active text-red a-nav fw-bolder" href="./contatti.html">CONTATTI</a>
                         </li>
                     </ul>
                 </div>
@@ -45,14 +47,18 @@
         
         <!-- Main -->
         <main class="vetrina-main">
-            <h1 class="text-center">SCEGLI LA TUA AUTO</h1>
+            <!-- Titolo, h1 -->
+            <div class="contenitore-h1-linea d-flex align-items-center flex-column">
+                <h1 class="text-center font-weight-bold">SCEGLI LA TUA AUTO</h1>
+                <div class="linea-2"></div>
+            </div>
             <!-- Cards -->
-            <div class="mt-4 contenitore-cards d-flex justify-content-around">
+            <div class="contenitore-cards mt-4 d-flex justify-content-between">
                 <!-- Card 1 -->
-                <div class="card border border-0 rounded-0 shadow-card" style="width: 18rem;">
+                <div class="card border border-0 rounded-0 shadow-card card-sinistra">
                     <img class="card-img-top" src="./img/rs.jpg" alt="modello-audi" height="160px">
                     <div class="card-body">
-                        <h5 class="card-title text-danger">Audi RS</h5>
+                        <h5 class="card-title text-danger">AUDI RS</h5>
                         <div class="card-text">
                             Cilindrata: 2,5 l<br>
                             Alimentazione: myld hybrid<br>
@@ -62,19 +68,29 @@
                     </div>
                 </div>
                 <!-- Card 2 -->
-                <div class="card border border-0 rounded-0 shadow-card" style="width: 18rem;">
+                <div class="card border border-0 rounded-0 shadow-card">
                     <img class="card-img-top" src="./img/etrongt4.jpg" alt="modello-audi" height="160px">
                     <div class="card-body">
-                        <h5 class="card-title">Titolo</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, sequi??</p>
+                        <h5 class="card-title text-danger">AUDI E-TRON GT</h5>
+                        <div class="card-text">
+                            Cilindrata: 2,5 l<br>
+                            Alimentazione: myld hybrid<br>
+                            Cambio: 2 rapporti Automatico<br>
+                            Cavalli: 530 CV<br>
+                        </div>
                     </div>
                 </div>
                 <!-- Card 3 -->
-                <div class="card border border-0 rounded-0 shadow-card" style="width: 18rem;">
+                <div class="card border border-0 rounded-0 shadow-card card-destra">
                     <img class="card-img-top" src="./img/q8etron.jpg" alt="modello-audi" height="160px">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, est.</p>
+                        <h5 class="card-title text-danger">AUDI Q8 E-TRON</h5>
+                        <div class="card-text">
+                            Cilindrata: 2,5 l<br>
+                            Alimentazione: myld hybrid<br>
+                            Cambio: 2 rapporti Automatico<br>
+                            Cavalli: 5476 CV<br>
+                        </div>
                     </div>
                 </div>
             </div>
